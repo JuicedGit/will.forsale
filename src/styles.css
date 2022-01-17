@@ -7,6 +7,6 @@
         @apply text-3xl mb-3;
     }
     body {
-        @apply w-screen overflow-hidden
+        @apply w-screen overflow-x-hidden;
     }
 }

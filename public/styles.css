@@ -553,6 +553,10 @@ Ensure the default browser behavior of the `hidden` attribute.
   padding: 2rem;
 }
 
+.p-6 {
+  padding: 1.5rem;
+}
+
 .text-center {
   text-align: center;
 }
@@ -563,6 +567,11 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .text-6xl {
   font-size: 3.75rem;
+  line-height: 1;
+}
+
+.text-5xl {
+  font-size: 3rem;
   line-height: 1;
 }
 
@@ -581,6 +590,10 @@ Ensure the default browser behavior of the `hidden` attribute.
 
   .lg\:flex-row-reverse {
     flex-direction: row-reverse;
+  }
+
+  .lg\:p-8 {
+    padding: 2rem;
   }
 
   .lg\:text-right {

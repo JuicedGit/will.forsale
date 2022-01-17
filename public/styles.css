@@ -488,10 +488,6 @@ Ensure the default browser behavior of the `hidden` attribute.
   height: 5rem;
 }
 
-.min-h-screen {
-  min-height: 100vh;
-}
-
 .w-screen {
   width: 100vw;
 }
@@ -500,16 +496,12 @@ Ensure the default browser behavior of the `hidden` attribute.
   width: 100%;
 }
 
-.w-2 {
-  width: 0.5rem;
+.w-1 {
+  width: 0.25rem;
 }
 
 .w-20 {
   width: 5rem;
-}
-
-.w-1 {
-  width: 0.25rem;
 }
 
 .-translate-y-8 {
@@ -532,14 +524,6 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .justify-center {
   justify-content: center;
-}
-
-.border-b-8 {
-  border-bottom-width: 8px;
-}
-
-.border-r-8 {
-  border-right-width: 8px;
 }
 
 .border-r-4 {
@@ -565,10 +549,6 @@ Ensure the default browser behavior of the `hidden` attribute.
   background-color: rgb(73 98 72 / var(--tw-bg-opacity));
 }
 
-.p-8 {
-  padding: 2rem;
-}
-
 .p-6 {
   padding: 1.5rem;
 }
@@ -579,11 +559,6 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .font-serif {
   font-family: Lora, serif;
-}
-
-.text-6xl {
-  font-size: 3.75rem;
-  line-height: 1;
 }
 
 .text-5xl {
@@ -636,21 +611,8 @@ Ensure the default browser behavior of the `hidden` attribute.
     text-align: right;
   }
 
-  .lg\:text-7xl {
-    font-size: 4.5rem;
-    line-height: 1;
-  }
-
   .lg\:text-6xl {
     font-size: 3.75rem;
-    line-height: 1;
-  }
-
-  .lg\:leading-snug {
-    line-height: 1.375;
-  }
-
-  .lg\:leading-none {
     line-height: 1;
   }
 }

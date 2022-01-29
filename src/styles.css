@@ -7,6 +7,10 @@
         @apply text-3xl mb-3;
     }
     body {
-        @apply w-screen overflow-x-hidden;
+        @apply p-10 overflow-x-hidden;
+    }
+    .text-fit {
+        font-size: 11.5vw;
+        line-height: 10vw
     }
 }

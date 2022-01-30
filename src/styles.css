@@ -2,15 +2,26 @@
 @tailwind components;
 @tailwind utilities;
 
+html {
+    @apply scroll-smooth
+}
+
 @layer base {
-    h1 {
-        @apply text-3xl mb-3;
-    }
     body {
-        @apply p-10 overflow-x-hidden;
+        @apply text-xl leading-relaxed p-3 lg:p-10 overflow-x-hidden;
+    }
+    h1 {
+        @apply text-3xl md:mb-10 mb-5 font-medium;
+    }
+    h2 {
+        @apply text-6xl md:mb-10 mb-5 font-medium;
+    }
+    p {
+        @apply mb-10
     }
     .text-fit {
         font-size: 11.5vw;
-        line-height: 10vw
+        line-height: 11vw;
     }
+
 }

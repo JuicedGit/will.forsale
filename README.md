@@ -1,3 +1,4 @@
 # will.forsale
 personal website
-im gonna update this at some point.
+guess who did a little updating!
+i wrote this in tailwindcss 

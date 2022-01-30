@@ -12,14 +12,33 @@
     <link rel="icon" type="image/x-icon" href="public/assets/favicon.svg">
     <title>William Bradshaw | Portfolio</title>
 </head>
-<body>
-    <h1 class="text-fit text-center w-full pb-5">William Bradshaw</h1>
+<body id="home">
+    <h1 class="md:text-fit text-6xl leading-normal text-center w-full md:pb-5 pb-2">William Bradshaw</h1>
     <hr class="border-black">
     <nav class="sticky top-0 w-full flex justify-center border-b border-black backdrop-blur-lg bg-white bg-opacity-80">
-        <a class="p-5 text-xl" href="">Home</a>
-        <a class="p-5 text-xl" href="">About me</a>
-        <a class="p-5 text-xl" href="">Contact</a>
+        <a class="md:p-5 p-2 md:text-xl text-base" href="#home">Home</a>
+        <a class="md:p-5 p-2 md:text-xl text-base" href="#about-me">About me</a>
+        <a class="md:p-5 p-2 md:text-xl text-base" href="">Contact</a>
     </nav>
-    <img class="border-black border mt-10" src="public/assets/gradients.svg" alt="Yellow and green radial hero gradient.">
+    <img class="border-black border mt-10 md:block hidden" src="public/assets/gradients.svg" alt="Yellow and green radial hero gradient.">
+    <img class="border-black border mt-5 md:hidden block" src="public/assets/gradients-mobile.svg" alt="Yellow and green radial hero gradient.">
+    <div class="md:container md:grid md:grid-cols-2 md:gap-10">
+        <div id="about-me" class="mt-10">
+            <h2>Hi!</h2>
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum
+            </p>
+            <img src="public/assets/animation.webp" alt="Short animation of me smiling at the camera and then running to pick it up.">
+        </div>
+        <div class="mt-10">
+            <h2>Education and experience</h2>
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum
+            </p>
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum
+            </p>
+        </div>
+    </div>
 </body>
 </html>

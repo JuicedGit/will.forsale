@@ -36,6 +36,6 @@ html {
         line-height: 11vw;
     }
     .skillsGriditem {
-        @apply bg-white w-full h-full p-3 hover-effect;
+        @apply bg-white w-full h-full p-3 md:hover-effect;
     }
 }

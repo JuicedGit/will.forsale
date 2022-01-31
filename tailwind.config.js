@@ -11,8 +11,9 @@ module.exports = {
     },
     extend: {
       colors: {
-        "portfolio-green": "#496248",
-        "portfolio-grey": "#C4C4C4"
+        "portfolio-green": "#5ca000",
+        "portfolio-yellow": "#ffeb00",
+        "portfolio-grey": "#b2b2b2"
       },
     },
   },

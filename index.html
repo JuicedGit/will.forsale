@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Hi! I'm William Bradshaw, I make websites and I enjoy design. This page is a showcase of my skills and explains a bit about me. I live in Tasmania, Australia.">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800" rel="stylesheet">
@@ -18,17 +19,19 @@
     <nav class="sticky top-0 w-full flex justify-center border-b border-black backdrop-blur-lg bg-white bg-opacity-80">
         <a class="md:p-5 p-2 md:text-xl text-base" href="#home">Home</a>
         <a class="md:p-5 p-2 md:text-xl text-base" href="#about-me">About me</a>
-        <a class="md:p-5 p-2 md:text-xl text-base" href="">Contact</a>
+        <a class="md:p-5 p-2 md:text-xl text-base" href="#contact">Contact</a>
     </nav>
-    <img class="border-black border mt-10 md:block hidden" src="public/assets/gradients.svg" alt="Yellow and green radial hero gradient.">
-    <img class="border-black border mt-5 md:hidden block" src="public/assets/gradients-mobile.svg" alt="Yellow and green radial hero gradient.">
-    <div class="md:container md:grid md:grid-cols-2 md:gap-10">
-        <div id="about-me" class="mt-10">
+    <section>
+        <img class="border-black border mt-10 md:block hidden" src="public/assets/gradients.svg" alt="Yellow and green radial hero gradient.">
+        <img class="border-black border mt-5 md:hidden block" src="public/assets/gradients-mobile.svg" alt="Yellow and green radial hero gradient.">
+    </section>
+    <section id="about-me" class="md:container md:grid md:grid-cols-2 md:gap-10">
+        <div class="mt-10">
             <h2>Hi!</h2>
             <p>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum
             </p>
-            <img src="public/assets/animation.webp" alt="Short animation of me smiling at the camera and then running to pick it up.">
+            <img class="border border-black" src="public/assets/animation.webp" alt="Short animation of me smiling at the camera and then running to pick it up.">
         </div>
         <div class="mt-10">
             <h2>Education and experience</h2>
@@ -39,6 +42,41 @@
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum
             </p>
         </div>
-    </div>
+    </section>
+    <section class="md:container md:mt-10">
+        <div class="md:bg-gradient-to-r from-portfolio-green/30 to-portfolio-grey/30 md:p-5">
+            <h2>Skills</h2>
+            <div class="grid gap-5 md:grid-cols-4">
+                <div class="skillsGriditem col-span-2">
+                    <h3>Design and web</h3>
+                    <p>Design and front end web development is my forte! I haven’t been doing it long but I have built a couple of sites and I really love it. I’m at home in Webflow, but I know vanilla HTML and CSS (and a bit of Tailwind - which I built this in) if worst comes to worst. </p>
+                </div>
+                <div class="skillsGriditem row-span-2">
+                    <h3>Teamwork</h3>
+                    <p>I always enjoy working in a team of motivated individuals. I find that a concrete plan and good discussion goes a long way in making sure everyone is on the same page and that a team is working! The key to teamwork though is knowing your teams capabilities and personalities.</p>
+                </div>
+                <div class="skillsGriditem">
+                    <h3>Some of the Adobe suite</h3>
+                    <p>Experience with Premiere Pro, Photoshop, Illustrator and Adobe XD.</p>
+                </div>
+                <div class="skillsGriditem">
+                    <h3>Google Workspace</h3>
+                    <p>I’ve used it for most of my schooling and it’s safe to say I’m a bit of a pro. 😎</p>
+                </div>
+                <div class="skillsGriditem">
+                    <h3>Computers generally!</h3>
+                    <p>I’ve used computers a lot and know how they work. I don’t have too much trouble learning.</p>
+                </div>
+                <div class="skillsGriditem">
+                    <h3>Figma and other tools</h3>
+                    <p>I know Figma and am proficient in Da Vinci Resolve - espeically Fusion</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="contact" class="md:container flex justify-center items-center md:h-96 h-screen flex-col">
+        <h2>Contact me</h2>
+        <a href="mailto:will.bradshaw50@gmail.com" target="blank">will.bradshaw50@gmail.com</a>
+    </section>
 </body>
 </html>

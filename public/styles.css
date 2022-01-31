@@ -428,7 +428,7 @@ body {
   padding: 0.75rem;
   font-size: 1.25rem;
   line-height: 1.75rem;
-  line-height: 1.625;
+  line-height: 2;
 }
 
 @media (min-width: 1024px) {
@@ -438,9 +438,9 @@ body {
 }
 
 h1 {
-  margin-bottom: 1.25rem;
-  font-size: 1.875rem;
-  line-height: 2.25rem;
+  margin-bottom: 0.75rem;
+  font-size: 6rem;
+  line-height: 1;
   font-weight: 500;
 }
 
@@ -451,7 +451,7 @@ h1 {
 }
 
 h2 {
-  margin-bottom: 1.25rem;
+  margin-bottom: 0.75rem;
   font-size: 3.75rem;
   line-height: 1;
   font-weight: 500;
@@ -463,8 +463,26 @@ h2 {
   }
 }
 
+h3 {
+  margin-bottom: 0.75rem;
+  font-size: 1.5rem;
+  line-height: 2rem;
+  font-weight: 500;
+}
+
 p {
   margin-bottom: 2.5rem;
+}
+
+.skillsGriditem {
+  height: 100%;
+  width: 100%;
+  border-width: 1px;
+  --tw-border-opacity: 1;
+  border-color: rgb(0 0 0 / var(--tw-border-opacity));
+  --tw-bg-opacity: 1;
+  background-color: rgb(255 255 255 / var(--tw-bg-opacity));
+  padding: 0.75rem;
 }
 
 *, ::before, ::after {
@@ -521,6 +539,14 @@ p {
   top: 0px;
 }
 
+.col-span-2 {
+  grid-column: span 2 / span 2;
+}
+
+.row-span-2 {
+  grid-row: span 2 / span 2;
+}
+
 .mt-10 {
   margin-top: 2.5rem;
 }
@@ -537,16 +563,36 @@ p {
   display: flex;
 }
 
+.grid {
+  display: grid;
+}
+
 .hidden {
   display: none;
+}
+
+.h-screen {
+  height: 100vh;
 }
 
 .w-full {
   width: 100%;
 }
 
+.flex-col {
+  flex-direction: column;
+}
+
+.items-center {
+  align-items: center;
+}
+
 .justify-center {
   justify-content: center;
+}
+
+.gap-5 {
+  gap: 1.25rem;
 }
 
 .border {
@@ -569,6 +615,15 @@ p {
 
 .bg-opacity-80 {
   --tw-bg-opacity: 0.8;
+}
+
+.from-portfolio-green\/30 {
+  --tw-gradient-from: rgb(92 160 0 / 0.3);
+  --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgb(92 160 0 / 0));
+}
+
+.to-portfolio-grey\/30 {
+  --tw-gradient-to: rgb(178 178 178 / 0.3);
 }
 
 .p-2 {
@@ -651,6 +706,10 @@ html {
     }
   }
 
+  .md\:mt-10 {
+    margin-top: 2.5rem;
+  }
+
   .md\:block {
     display: block;
   }
@@ -663,12 +722,24 @@ html {
     display: none;
   }
 
+  .md\:h-96 {
+    height: 24rem;
+  }
+
   .md\:grid-cols-2 {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 
+  .md\:grid-cols-4 {
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+  }
+
   .md\:gap-10 {
     gap: 2.5rem;
+  }
+
+  .md\:bg-gradient-to-r {
+    background-image: linear-gradient(to right, var(--tw-gradient-stops));
   }
 
   .md\:p-5 {

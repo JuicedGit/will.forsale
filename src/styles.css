@@ -22,12 +22,20 @@ html {
     p {
         @apply mb-10;
     }
+    a {
+        @apply hover:border-black border-transparent border-b transition-all;
+    }
+}
+
+@layer utilities {
+    .hover-effect {
+        @apply hover:outline-2 outline-1 outline transition-all;
+    }
     .text-fit {
         font-size: 11.5vw;
         line-height: 11vw;
     }
     .skillsGriditem {
-        @apply bg-white w-full h-full border border-black p-3;
+        @apply bg-white w-full h-full p-3 hover-effect;
     }
-
 }

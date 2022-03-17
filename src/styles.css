@@ -23,7 +23,7 @@ html {
         @apply mb-10;
     }
     a {
-        @apply hover:border-black border-transparent border-b transition-all;
+        @apply hover:border-black border-transparent border-b transition-all font-medium;
     }
 }
 
@@ -37,5 +37,8 @@ html {
     }
     .skillsGriditem {
         @apply bg-white w-full h-full p-3 md:hover-effect;
+    }
+    .nav-link {
+        @apply md:p-5 p-2 md:text-xl text-base font-normal;
     }
 }
